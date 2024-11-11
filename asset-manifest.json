@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/EcoFriendlyTracker/static/css/main.503fa90d.css",
+    "main.js": "/EcoFriendlyTracker/static/js/main.fd9ed7a0.js",
+    "index.html": "/EcoFriendlyTracker/index.html",
+    "main.503fa90d.css.map": "/EcoFriendlyTracker/static/css/main.503fa90d.css.map",
+    "main.fd9ed7a0.js.map": "/EcoFriendlyTracker/static/js/main.fd9ed7a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.503fa90d.css",
+    "static/js/main.fd9ed7a0.js"
+  ]
+}
