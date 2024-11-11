@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ActionList from './components/ActionList';
 import ImpactSummary from './components/ImpactSummary';
-import './App.css'; // Ensure you have the styles defined in App.css
+import './App.css'; // Import specific styles for App component
 
 function App() {
   const [actions, setActions] = useState([]);
@@ -17,18 +17,15 @@ function App() {
     localStorage.setItem('ecoActions', JSON.stringify(actions));
   }, [actions]);
 
-  // Handle adding new action
   const handleAddAction = (action) => {
     setActions(prevActions => [...prevActions, action]);
   };
 
-  // Handle removing action by index
   const handleRemoveAction = (index) => {
     const updatedActions = actions.filter((_, i) => i !== index);
     setActions(updatedActions);
   };
 
-  // Handle clearing all actions
   const handleClearActions = () => {
     setActions([]);
   };
@@ -43,7 +40,7 @@ function App() {
         <ImpactSummary 
           actions={actions}
           onClearActions={handleClearActions}
-          onRemoveAction={handleRemoveAction} // Pass the remove handler to ImpactSummary
+          onRemoveAction={handleRemoveAction}
         />
       </main>
     </div>

@@ -17,10 +17,7 @@ function ActionList({ onAddAction }) {
         {predefinedActions.map((action, index) => (
           <li key={index} className="action-item">
             <span>{action.name} (CO2 Reduction: {action.carbonReduction} kg)</span>
-            <button 
-              className="add-action-btn" 
-              onClick={() => onAddAction({ ...action, count: 1 })}
-            >
+            <button onClick={() => onAddAction({ ...action, count: 1 })}>
               Add Action
             </button>
           </li>

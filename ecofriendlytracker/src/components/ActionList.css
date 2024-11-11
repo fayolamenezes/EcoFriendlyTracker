@@ -1,26 +1,24 @@
 .action-list {
-    margin: 20px;
-    padding: 10px;
-    background-color: #f1f1f1;
-    border-radius: 5px;
+    list-style: none;
+    padding: 0;
   }
   
   .action-item {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
   }
   
-  .action-item button {
+  .add-action-btn {
     padding: 5px 10px;
     background-color: #4CAF50;
     color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
   }
   
-  .action-item button:hover {
+  .add-action-btn:hover {
     background-color: #45a049;
   }
   
