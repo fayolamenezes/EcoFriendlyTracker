@@ -1,0 +1,34 @@
+.impact-summary {
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .impact-summary h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .impact-summary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .impact-summary li {
+    margin: 5px 0;
+  }
+  
+  .impact-summary button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .impact-summary button:hover {
+    background-color: #e53935;
+  }
+  
