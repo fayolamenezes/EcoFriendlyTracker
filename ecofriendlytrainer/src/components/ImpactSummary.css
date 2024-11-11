@@ -1,19 +1,20 @@
+/* Impact Summary */
 .impact-summary {
-    background-color: #ecf0f1;
-    padding: 25px;
+    background: linear-gradient(135deg, #ecf0f1, #dfe6e9);
+    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   .impact-summary h2 {
     font-size: 1.8em;
     color: #2c3e50;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   
   .impact-summary p {
     font-size: 1.2em;
-    margin-bottom: 20px;
+    color: #34495e;
   }
   
   .impact-summary ul {
@@ -22,9 +23,13 @@
   }
   
   .impact-summary ul li {
-    font-size: 1.1em;
     margin: 10px 0;
     color: #34495e;
+    transition: color 0.3s ease;
+  }
+  
+  .impact-summary ul li:hover {
+    color: #e74c3c;
   }
   
   .impact-summary button {
@@ -35,9 +40,11 @@
     border-radius: 5px;
     font-size: 1.1em;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
   }
   
   .impact-summary button:hover {
     background-color: #c0392b;
+    transform: translateY(-2px);
   }
   

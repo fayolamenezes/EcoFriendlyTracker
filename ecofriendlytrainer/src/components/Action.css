@@ -1,3 +1,4 @@
+/* Action Item Button */
 .action-item {
     display: flex;
     justify-content: space-between;
@@ -15,9 +16,12 @@
     border-radius: 4px;
     font-size: 1em;
     color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
   }
   
   button:hover {
     background-color: #2980b9;
+    transform: translateY(-2px);
   }
   
