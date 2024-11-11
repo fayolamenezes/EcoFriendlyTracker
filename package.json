@@ -22,8 +22,24 @@
     "type": "git",
     "url": "https://github.com/fayolamenezes/EcoFriendlyTracker.git"
   },
-  "keywords": ["eco-friendly", "tracker", "co2 reduction"],
+  "keywords": [
+    "eco-friendly",
+    "tracker",
+    "co2 reduction"
+  ],
   "author": "Your Name",
   "license": "MIT",
-  "homepage": "https://fayolamenezes.github.io/EcoFriendlyTracker"
+  "homepage": "https://fayolamenezes.github.io/ecoactiontrainer",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

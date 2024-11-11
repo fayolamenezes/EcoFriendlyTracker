@@ -1,14 +1,73 @@
 .App {
   font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #f4f4f9;
-  color: #333;
-  max-width: 800px;
-  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
 }
 
 h1 {
-  text-align: center;
-  font-size: 2rem;
   color: #4CAF50;
+}
+
+.action-list {
+  margin: 20px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #388e3c;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+.impact-summary {
+  margin-top: 30px;
+}
+
+.impact-summary p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.clear-button {
+  background-color: #f44336;
+  padding: 10px 20px;
+  color: white;
+}
+
+.clear-button:hover {
+  background-color: #e53935;
+}
+
+/* Style for the tracked actions and breakdown */
+.tracked-actions {
+  font-size: 12px; /* Makes the tracked actions smaller */
+  color: #333; /* Optional: Adjusts the color for better readability */
+}
+
+.tracked-actions li {
+  margin-bottom: 5px; /* Adds some space between the tracked actions */
+}
+
+.tracked-actions-breakdown {
+  font-size: 12px; /* Smaller font size for breakdown of tracked actions */
+  color: #555; /* Lighter color for the breakdown */
 }
