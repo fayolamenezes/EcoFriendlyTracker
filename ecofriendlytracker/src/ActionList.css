@@ -1,0 +1,46 @@
+/* Action List */
+.action-list {
+    padding: 20px;
+    background: linear-gradient(135deg, #f9f9f9, #e2e6eb);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .action-list h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .action-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .action-item:hover {
+    background-color: #ecf0f1;
+    transform: translateX(2px);
+  }
+  
+  .action-item:last-child {
+    border-bottom: none;
+  }
+  
+  .action-item button {
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .action-item button:hover {
+    background: linear-gradient(135deg, #27ae60, #2ecc71);
+    transform: translateY(-2px);
+  }
+  
