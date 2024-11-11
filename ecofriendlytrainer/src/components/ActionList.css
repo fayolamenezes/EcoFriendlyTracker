@@ -1,0 +1,36 @@
+.action-list {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .action-list h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .action-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .action-item:last-child {
+    border-bottom: none;
+  }
+  
+  .action-item button {
+    background-color: #3498db;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 1em;
+    color: white;
+  }
+  
+  .action-item button:hover {
+    background-color: #2980b9;
+  }
+  

@@ -1,0 +1,43 @@
+.impact-summary {
+    background-color: #ecf0f1;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .impact-summary h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .impact-summary p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .impact-summary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .impact-summary ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #34495e;
+  }
+  
+  .impact-summary button {
+    padding: 12px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+  
+  .impact-summary button:hover {
+    background-color: #c0392b;
+  }
+  
