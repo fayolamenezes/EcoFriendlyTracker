@@ -8,7 +8,7 @@ const ImpactSummary = ({ actions, totalCO2, clearActions }) => {
     <div className="impact-summary">
       <h2>Impact Summary</h2>
       <p style={{ color: impactColor }}>
-        You've saved the equivalent of {Math.floor(totalCO2 / 0.01)} trees planted!
+        You've saved the equivalent of {Math.floor(totalCO2 / 10)} trees planted!
       </p>
       <ul>
         {actions.map(action => (
