@@ -2,7 +2,7 @@
   "name": "ecofriendlytracker",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://your-github-username.github.io/EcoFriendlyTracker/ecofriendlytracking",
+  "homepage": "https://fayolamenezes.github.io/EcoFriendlyTracker/ecofriendlytracking",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
