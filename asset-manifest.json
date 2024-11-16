@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/EcoFriendlyTracker/ecofriendlytracker/static/css/main.c6f17e5a.css",
-    "main.js": "/EcoFriendlyTracker/ecofriendlytracker/static/js/main.a4572cd2.js",
-    "index.html": "/EcoFriendlyTracker/ecofriendlytracker/index.html",
-    "main.c6f17e5a.css.map": "/EcoFriendlyTracker/ecofriendlytracker/static/css/main.c6f17e5a.css.map",
-    "main.a4572cd2.js.map": "/EcoFriendlyTracker/ecofriendlytracker/static/js/main.a4572cd2.js.map"
+    "main.css": "/EcoFriendlyTracker/static/css/main.c6f17e5a.css",
+    "main.js": "/EcoFriendlyTracker/static/js/main.a4572cd2.js",
+    "index.html": "/EcoFriendlyTracker/index.html",
+    "main.c6f17e5a.css.map": "/EcoFriendlyTracker/static/css/main.c6f17e5a.css.map",
+    "main.a4572cd2.js.map": "/EcoFriendlyTracker/static/js/main.a4572cd2.js.map"
   },
   "entrypoints": [
     "static/css/main.c6f17e5a.css",
